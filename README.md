@@ -4,6 +4,14 @@ Know Before You Owe is a proactive inbox assistant that helps users anticipate c
 
 Built as a Yahoo Mail hack submission, the app reframes recurring billing messages as an assistive product experience instead of a passive inbox stream.
 
+## Visual preview
+
+![Home preview](docs/home-preview.svg)
+
+![Assistant preview](docs/assistant-preview.svg)
+
+![Case detail preview](docs/detail-preview.svg)
+
 ## What it does
 
 - detects recurring subscriptions, trials, and price increases

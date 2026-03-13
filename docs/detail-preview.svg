@@ -1,0 +1,35 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="700" rx="36" fill="#F3F1F8"/>
+<rect x="70" y="40" width="320" height="620" rx="40" fill="#111111"/>
+<rect x="82" y="52" width="296" height="596" rx="32" fill="#F7F6FB"/>
+<circle cx="118" cy="108" r="22" fill="white"/>
+<text x="111" y="116" fill="#111111" font-family="Arial, sans-serif" font-size="26" font-weight="700">‹</text>
+<text x="180" y="117" fill="#111111" font-family="Arial, sans-serif" font-size="28" font-weight="800">Dropbox</text>
+<rect x="104" y="146" width="252" height="210" rx="28" fill="white"/>
+<text x="126" y="186" fill="#111111" font-family="Arial, sans-serif" font-size="26" font-weight="800">Dropbox</text>
+<text x="126" y="216" fill="#EF4444" font-family="Arial, sans-serif" font-size="16" font-weight="800">Price increase</text>
+<text x="126" y="248" fill="#5F6470" font-family="Arial, sans-serif" font-size="16">Your Dropbox Plus plan is moving</text>
+<text x="126" y="270" fill="#5F6470" font-family="Arial, sans-serif" font-size="16">from $9.99 to a higher monthly rate.</text>
+<rect x="126" y="294" width="104" height="42" rx="16" fill="#FFF1F1"/>
+<text x="143" y="321" fill="#EF4444" font-family="Arial, sans-serif" font-size="22" font-weight="800">$11.99</text>
+<text x="241" y="320" fill="#8B90A0" font-family="Arial, sans-serif" font-size="15">was $9.99</text>
+<rect x="104" y="378" width="252" height="132" rx="26" fill="white"/>
+<text x="126" y="415" fill="#111111" font-family="Arial, sans-serif" font-size="20" font-weight="800">Billing timeline</text>
+<circle cx="138" cy="450" r="6" fill="#6001D2"/>
+<text x="156" y="455" fill="#111111" font-family="Arial, sans-serif" font-size="18" font-weight="800">Upcoming Dropbox price increase</text>
+<text x="156" y="478" fill="#5F6470" font-family="Arial, sans-serif" font-size="14">Evidence email tied directly to the price-change story.</text>
+<rect x="104" y="532" width="252" height="54" rx="27" fill="#6001D2"/>
+<text x="161" y="566" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="800">Request Billing Review</text>
+<rect x="114" y="593" width="232" height="42" rx="21" fill="#171717"/>
+<text x="141" y="620" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="700">Home</text>
+<text x="216" y="620" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="700">Digest</text>
+<text x="281" y="620" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="700">Assistant</text>
+<text x="455" y="145" fill="#111111" font-family="Arial, sans-serif" font-size="40" font-weight="800">Case Detail</text>
+<text x="455" y="188" fill="#4E5563" font-family="Arial, sans-serif" font-size="22">Each case combines the billing story, evidence,</text>
+<text x="455" y="216" fill="#4E5563" font-family="Arial, sans-serif" font-size="22">and the next action in one focused view.</text>
+<rect x="455" y="280" width="360" height="170" rx="28" fill="white"/>
+<text x="485" y="320" fill="#6001D2" font-family="Arial, sans-serif" font-size="18" font-weight="800">Agentic action flow</text>
+<text x="485" y="352" fill="#111111" font-family="Arial, sans-serif" font-size="24" font-weight="800">Ask for billing review in one tap.</text>
+<text x="485" y="384" fill="#5F6470" font-family="Arial, sans-serif" font-size="17">The assistant summarizes the change, frames</text>
+<text x="485" y="408" fill="#5F6470" font-family="Arial, sans-serif" font-size="17">the case, and confirms progress with visible feedback.</text>
+</svg>
