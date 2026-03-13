@@ -41,7 +41,7 @@ struct RootView: View {
             hasBootstrappedDemo = true
             appState.useOfflineDemo()
 
-            try? await Task.sleep(for: .seconds(5.8))
+            try? await Task.sleep(for: .seconds(3.0))
             withAnimation(.easeInOut(duration: 0.28)) {
                 isShowingSplash = false
             }
