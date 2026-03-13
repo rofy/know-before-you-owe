@@ -1,0 +1,16 @@
+.DS_Store
+.build
+DerivedData
+.derivedData
+.derivedData-device
+.derivedData-mac
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.swp
+*.lock
+*.orig

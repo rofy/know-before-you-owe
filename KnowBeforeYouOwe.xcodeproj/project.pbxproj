@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10000000000000000000001 /* LifeMailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* LifeMailApp.swift */; };
+		B10000000000000000000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* Models.swift */; };
+		B10000000000000000000003 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* KeychainStore.swift */; };
+		B10000000000000000000004 /* IMAPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* IMAPClient.swift */; };
+		B10000000000000000000005 /* EmailAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* EmailAnalyzer.swift */; };
+		B10000000000000000000006 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* AppState.swift */; };
+		B10000000000000000000007 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* RootView.swift */; };
+		B10000000000000000000008 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* LoginView.swift */; };
+		B10000000000000000000009 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* InboxView.swift */; };
+		B1000000000000000000000A /* LifeHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001A /* LifeHubView.swift */; };
+		B1000000000000000000000B /* ServiceRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001B /* ServiceRequestView.swift */; };
+		B1000000000000000000000C /* PitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001C /* PitchView.swift */; };
+		B1000000000000000000000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001D /* Assets.xcassets */; };
+		B1000000000000000000000E /* YahooOAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001E /* YahooOAuthClient.swift */; };
+		B1000000000000000000000F /* BiometricAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000020 /* BiometricAuth.swift */; };
+		B10000000000000000000010 /* GoogleOAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000021 /* GoogleOAuthClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1000000000000000000000E /* KnowBeforeYouOwe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnowBeforeYouOwe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000011 /* LifeMailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeMailApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000012 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A10000000000000000000013 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000014 /* IMAPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMAPClient.swift; sourceTree = "<group>"; };
+		A10000000000000000000015 /* EmailAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAnalyzer.swift; sourceTree = "<group>"; };
+		A10000000000000000000016 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A10000000000000000000017 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A10000000000000000000018 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A10000000000000000000019 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001A /* LifeHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHubView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001B /* ServiceRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRequestView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001C /* PitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1000000000000000000001E /* YahooOAuthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooOAuthClient.swift; sourceTree = "<group>"; };
+		A1000000000000000000001F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000020 /* BiometricAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuth.swift; sourceTree = "<group>"; };
+		A10000000000000000000021 /* GoogleOAuthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleOAuthClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000000F /* KnowBeforeYouOwe */,
+				A10000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000000E /* KnowBeforeYouOwe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1000000000000000000000F /* KnowBeforeYouOwe */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000011 /* LifeMailApp.swift */,
+				A10000000000000000000012 /* Models.swift */,
+				A10000000000000000000016 /* AppState.swift */,
+				A10000000000000000000014 /* IMAPClient.swift */,
+				A10000000000000000000015 /* EmailAnalyzer.swift */,
+				A1000000000000000000001E /* YahooOAuthClient.swift */,
+				A10000000000000000000021 /* GoogleOAuthClient.swift */,
+				A10000000000000000000013 /* KeychainStore.swift */,
+				A10000000000000000000020 /* BiometricAuth.swift */,
+				A1000000000000000000001F /* Info.plist */,
+				A1000000000000000000001D /* Assets.xcassets */,
+				A10000000000000000000010 /* Views */,
+			);
+			path = KnowBeforeYouOwe;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000010 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000017 /* RootView.swift */,
+				A10000000000000000000018 /* LoginView.swift */,
+				A10000000000000000000019 /* InboxView.swift */,
+				A1000000000000000000001A /* LifeHubView.swift */,
+				A1000000000000000000001B /* ServiceRequestView.swift */,
+				A1000000000000000000001C /* PitchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000004 /* KnowBeforeYouOwe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000000000000000000000B /* Build configuration list for PBXNativeTarget "KnowBeforeYouOwe" */;
+			buildPhases = (
+				A10000000000000000000008 /* Sources */,
+				A10000000000000000000009 /* Frameworks */,
+				A1000000000000000000000A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnowBeforeYouOwe;
+			productName = KnowBeforeYouOwe;
+			productReference = A1000000000000000000000E /* KnowBeforeYouOwe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A10000000000000000000004 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000000005 /* Build configuration list for PBXProject "KnowBeforeYouOwe" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000002;
+			productRefGroup = A10000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000004 /* KnowBeforeYouOwe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1000000000000000000000A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000000000000000000000D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000001 /* LifeMailApp.swift in Sources */,
+				B10000000000000000000002 /* Models.swift in Sources */,
+				B10000000000000000000006 /* AppState.swift in Sources */,
+				B10000000000000000000004 /* IMAPClient.swift in Sources */,
+				B10000000000000000000005 /* EmailAnalyzer.swift in Sources */,
+				B1000000000000000000000E /* YahooOAuthClient.swift in Sources */,
+				B10000000000000000000010 /* GoogleOAuthClient.swift in Sources */,
+				B10000000000000000000003 /* KeychainStore.swift in Sources */,
+				B1000000000000000000000F /* BiometricAuth.swift in Sources */,
+				B10000000000000000000007 /* RootView.swift in Sources */,
+				B10000000000000000000008 /* LoginView.swift in Sources */,
+				B10000000000000000000009 /* InboxView.swift in Sources */,
+				B1000000000000000000000A /* LifeHubView.swift in Sources */,
+				B1000000000000000000000B /* ServiceRequestView.swift in Sources */,
+				B1000000000000000000000C /* PitchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10000000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1000000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
+				DEVELOPMENT_TEAM = C9598Y82NU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KnowBeforeYouOwe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rofaida.KnowBeforeYouOwe;
+				PRODUCT_NAME = "Know Before You Owe";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1000000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
+				DEVELOPMENT_TEAM = C9598Y82NU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KnowBeforeYouOwe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rofaida.KnowBeforeYouOwe;
+				PRODUCT_NAME = "Know Before You Owe";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000005 /* Build configuration list for PBXProject "KnowBeforeYouOwe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000006 /* Debug */,
+				A10000000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000000000000000000000B /* Build configuration list for PBXNativeTarget "KnowBeforeYouOwe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000000000000000000000C /* Debug */,
+				A1000000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000001 /* Project object */;
+}
