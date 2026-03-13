@@ -1,37 +1,52 @@
 # Know Before You Owe
 
-Know Before You Owe is an iOS concept for a proactive billing assistant built into email.
+Know Before You Owe is a proactive inbox assistant that helps users anticipate charges, understand them, and act before they owe.
 
-For the current hack demo build, the app launches directly into a polished demo experience that shows how an assistant can:
+Built as a Yahoo Mail hack submission, the app reframes recurring billing messages as an assistive product experience instead of a passive inbox stream.
 
-- surface recurring subscriptions, trials, and price increases
-- explain billing changes in plain language
-- prioritize the highest-risk case
-- guide or take the next best action on the user's behalf
-- celebrate completed actions with reactive UI feedback
+## What it does
 
-## Demo flow
+- detects recurring subscriptions, trials, and price increases
+- explains billing changes in plain language
+- prioritizes the next most urgent case
+- recommends or takes the next best action on the user's behalf
+- reflects completed actions directly in the assistant summary
 
-The demo currently opens straight into curated recurring-services scenarios so the full experience can be shown reliably on device without requiring live mailbox sign-in.
+## Demo experience
 
-Highlighted scenarios include:
+The current submission build launches directly into a curated on-device demo so the full product story can be shown reliably without dependency on live mailbox login.
 
-- trial cancellation before first charge
-- price increase review and refund-request drafting
+The demo showcases:
+
+- trial prevention before a first paid conversion
 - recurring subscription tracking
-- assistant summaries, recommendations, and action confirmations
+- price increase detection and escalation
+- agentic cancellation and billing-review flows
+- reactive summaries, progress states, and success confirmations
 
-## Built with
+## Product framing
+
+Know Before You Owe is designed as an intelligent financial-assistance layer inside email.
+
+Instead of forcing users to manually parse billing messages, the assistant:
+
+- organizes signals across recurring commerce emails
+- highlights what needs attention now
+- brings together the billing story, evidence, and next step
+- helps the user stay in control of unwanted charges and subscription creep
+
+## Tech
 
 - SwiftUI
-- Xcode project for iPhone
-- card-based Yahoo-inspired visual language
+- iOS
+- Xcode project
+- custom demo-state and assistant-action flows
 
-## Project structure
+## Repository layout
 
 - `KnowBeforeYouOwe.xcodeproj` — Xcode project
 - `KnowBeforeYouOwe/` — app source
-- `Tools/` — local asset/icon helpers
+- `Tools/` — icon and asset helpers
 
 ## Run locally
 
@@ -39,6 +54,7 @@ Highlighted scenarios include:
 2. Choose an iPhone simulator or connected device.
 3. Build and run.
 
-## Status
+## Notes
 
-This repository reflects the latest demo-oriented hack submission build.
+- This repository reflects the latest demo-oriented hack submission build.
+- The current presentation mode opens directly into the guided recurring-services experience.
